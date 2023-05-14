@@ -27,16 +27,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   image: {
-    width: 150,
+    width: 175,
     height: 150,
     borderRadius: 8,
   },
   detailsContainer: {
     flex: 1,
     padding: 8,
+    alignItems: 'center',
   },
   name: {
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: 'bold',
     fontFamily: 'Times New Roman',
   },
@@ -44,6 +45,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: '#000',
     marginTop: 4,
+    textAlign: 'center',
     fontFamily: 'Times New Roman',
   },
 });
